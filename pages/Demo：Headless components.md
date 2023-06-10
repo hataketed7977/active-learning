@@ -1,0 +1,7 @@
+- Example：Countdown component
+- 功能需求：
+	- 对于一个未来的日期：显示剩余的天，小时，分钟和秒数。
+	- 对于一个过去的日期或者错误的日期格式：显示错误信息
+- 组件实现：
+	- [[Headless component using render props]]
+	- [[Headless component using react Hooks]]
