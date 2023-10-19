@@ -15,7 +15,6 @@
 		- spring reactive native
 			- jdk: 21, spring 3.1.4
 			- ![image.png](../assets/image_1695805299233_0.png){:height 37, :width 546}
-			-
 			- 通过增加并发数到220，TPS可以到1850，稳定在1800左右开始下降
 		- quarkus reactive
 			- jdk: 17, quarkus: 3.4.1
@@ -49,9 +48,9 @@
 			- 图结果 Graph Results
 	- 执行测试
 	- 结果分析
-		- 中值: 50% 都在xx ms之内
+		- 中值: 50% 都在 xx ms 之内
 		- 样本 (Sample）：发送请求的总样本数量
 		- 响应时间（RT）：平均値，P90, P95, P99, Min, Max
 		- 异常(Error）：出现错误的百分比
 		- 吞吐量 (Throughput）：被测试接口的吞吐能力
-		- 友送与接收数据量：KB/sec
+		- 发送与接收数据量：KB/sec
