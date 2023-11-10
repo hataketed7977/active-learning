@@ -1,5 +1,5 @@
 - [[JVM]]
-- [[GC]]
+- [[多线程]]
 - [[Spring]]
 - [[Quarkus]]
 - [[Gradle]]

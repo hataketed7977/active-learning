@@ -1,0 +1,366 @@
+{:blocks (
+{:block/created-at 1698215663253
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "yellow"
+:rotation 0
+:borderRadius 2
+:index 0
+:scale [1 1]
+:scaleLevel "lg"
+:fill "yellow"
+:type "box"
+:size [848 672]
+:strokeType "line"
+:strokeWidth 3.2
+:opacity 1
+:label "运行时数据区\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+:id "88c2aa70-72ff-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:point [424 -32]
+:fontSize 32
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215233847
+:italic false}}
+:block/updated-at 1698215663253} 
+{:block/created-at 1698215656927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:rotation 0
+:borderRadius 2
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill "green"
+:type "box"
+:size [600 152]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "字符串常量池                                                                 \n（全局只有一个）                                                                 "
+:id "9ce9a990-72ff-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:point [544 72]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215267956
+:italic false}}
+:block/updated-at 1698215656927} 
+{:block/created-at 1698215656927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "#b3b3b3"
+:borderRadius 2
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill "#ffffff"
+:type "box"
+:size [280 88]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "双引号的字符串"
+:id "aadcd450-72ff-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:point [840 104]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215290966
+:italic false}}
+:block/updated-at 1698215656927} 
+{:block/created-at 1698215676504
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [632 280]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "运行时常量池                                                                        \n（一个Class对象一个）                                                                        \n\n\n\n\n\n\n\n\n"
+:id "10495660-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:point [584 312]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215461790
+:italic false}}
+:block/updated-at 1698215676504} 
+{:block/created-at 1698215656927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [632 280]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "运行时常量池                                                                        \n（一个Class对象一个）                                                                        \n\n\n\n\n\n\n\n\n"
+:id "6fca7ec0-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [552 288]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215461830
+:italic false}}
+:block/updated-at 1698215656927} 
+{:block/created-at 1698215663256
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [632 280]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "运行时常量池                                                                        \n（一个Class对象一个）                                                                        \n\n\n\n\n\n\n\n\n"
+:id "72443150-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [528 264]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215461842
+:italic false}}
+:block/updated-at 1698215663256} 
+{:block/created-at 1698215719474
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "#b0b0b0"
+:borderRadius 2
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill "#fcfcfc"
+:type "box"
+:size [248 64]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "字面量"
+:id "97fbf450-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:point [896 400]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215688496
+:italic false}}
+:block/updated-at 1698215719474} 
+{:block/created-at 1698215736811
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "#b0b0b0"
+:borderRadius 2
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill "#fcfcfc"
+:type "box"
+:size [248 64]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "符号引用"
+:id "aae2ab40-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [896 480]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215688702
+:italic false}}
+:block/updated-at 1698215736811} 
+{:block/created-at 1698215846916
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 8
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [848 192]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "Class文件常量池                                                              \n                                                           \n（一个Class文件一个）                                                             \n\n"
+:id "c3d207e0-7300-11ee-b032-036023db00d9"
+:fontWeight 400
+:noFill false
+:point [424 704]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215762200
+:italic false}}
+:block/updated-at 1698215846916} 
+{:block/created-at 1698215793206
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "#b0b0b0"
+:borderRadius 2
+:index 10
+:scale [1 1]
+:scaleLevel "md"
+:fill "#fcfcfc"
+:type "box"
+:size [248 64]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "符号引用"
+:id "d406be31-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [976 808]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215688816
+:italic false}}
+:block/updated-at 1698215793206} 
+{:block/created-at 1698215793210
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "#b0b0b0"
+:borderRadius 2
+:index 9
+:scale [1 1]
+:scaleLevel "md"
+:fill "#fcfcfc"
+:type "box"
+:size [248 64]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label "字面量"
+:id "d406be30-7300-11ee-b032-036023db00d9"
+:fontWeight 700
+:noFill false
+:isLocked false
+:point [976 728]
+:fontSize 20
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215688610
+:italic false}}
+:block/updated-at 1698215793210} 
+{:block/created-at 1698215861012
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 11
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "fa1b4732-7300-11ee-b032-036023db00d9"
+:fontWeight 400
+:noFill true
+:point [888.13 644]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0.99 59]
+:bindingId "fd8e26d1-7300-11ee-b032-036023db00d9"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "fa1b4731-7300-11ee-b032-036023db00d9"}}
+:decorations 
+{:end "arrow"}
+:parentId "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:nonce 1698215853267
+:italic false}}
+:block/updated-at 1698215861012} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"}
+:block/parent 
+{:block/uuid #uuid "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"}
+:block/properties 
+{}
+:block/uuid #uuid "6538b7fc-7b6e-4c6e-a2ef-97c6940c4e69"})
+:pages (
+{:block/uuid #uuid "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "65378fc8-ee0e-4d6b-b160-fe4f33eadc2f"
+:name "运行时数据区-常量池-图"
+:bindings 
+{:fa1b4731-7300-11ee-b032-036023db00d9 
+{:id "fa1b4731-7300-11ee-b032-036023db00d9"
+:type "line"
+:fromId "fa1b4732-7300-11ee-b032-036023db00d9"
+:toId "88c2aa70-72ff-11ee-b032-036023db00d9"
+:handleId "end"
+:point [0.54 0.48]
+:distance 4}
+:fd8e26d1-7300-11ee-b032-036023db00d9 
+{:id "fd8e26d1-7300-11ee-b032-036023db00d9"
+:type "line"
+:fromId "fa1b4732-7300-11ee-b032-036023db00d9"
+:toId "c3d207e0-7300-11ee-b032-036023db00d9"
+:handleId "start"
+:point [0.55 0.52]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("88c2aa70-72ff-11ee-b032-036023db00d9" "72443150-7300-11ee-b032-036023db00d9" "9ce9a990-72ff-11ee-b032-036023db00d9" "aadcd450-72ff-11ee-b032-036023db00d9" "6fca7ec0-7300-11ee-b032-036023db00d9" "10495660-7300-11ee-b032-036023db00d9" "97fbf450-7300-11ee-b032-036023db00d9" "aae2ab40-7300-11ee-b032-036023db00d9" "c3d207e0-7300-11ee-b032-036023db00d9" "d406be30-7300-11ee-b032-036023db00d9" "d406be31-7300-11ee-b032-036023db00d9" "fa1b4732-7300-11ee-b032-036023db00d9")}}
+:block/journal? false
+:block/updated-at 1698215894075
+:block/created-at 1698140104313
+:block/format :markdown
+:block/type "whiteboard"
+:block/name "运行时数据区-常量池-图"
+:block/original-name "运行时数据区-常量池-图"})}
