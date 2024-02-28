@@ -1,0 +1,17 @@
+- Large Language Models
+- Two types of LLMs
+	- Base LLM
+		- Predicts（预测） next words, based on text training data
+	- Instruction Tuned LLM
+		- Tries to follow instructions
+		- Fine-tune（微调） on instructions and good attempts at following those instructions
+		- RLHF: Reinforcement Learning with Human Feedback
+			- “带有人类反馈的强化学习”或者“人类反馈强化学习”。这是一种机器学习方法，通过结合强化学习和人类反馈来训练模型，使其更好地遵循指令并提高性能。
+- Prompt Enginering Guide: https://www.promptingguide.ai/techniques/zeroshot
+- ChatGPT Prompt Engineering for Developers: https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
+- Prompt engineering: https://platform.openai.com/docs/guides/prompt-engineering
+- GPT: https://guangzhengli.com/blog/zh/gpt-embeddings/
+- [[LLM:软件交付]]
+- [[向量数据库]]
+- [[Prompt Engineering]]
+- [[LLM Setting]]
