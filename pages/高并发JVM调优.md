@@ -22,7 +22,7 @@
 		- jdk8 默认PS + PO 吞吐量优先，不是延迟优先
 	- 未设置Metaspace
 		- ![image.png](../assets/image_1709287560013_0.png){:height 358, :width 490}
-		- Metaspace扩容时会触发full gc
+		- Metaspace 扩容时会触发full gc
 -
 - 优化方案
 	- 垃圾收集器
