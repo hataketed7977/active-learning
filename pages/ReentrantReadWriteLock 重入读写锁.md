@@ -25,3 +25,7 @@
 	  //在读的时候允许多个线程访问，写的时候互斥
 	  Lock.readLock().unlock();
 	  ```
+- 原理
+	- 读锁和写锁共享状态标记，判断 available 来决定是否等待
+	- ![image.png](../assets/image_1711078949242_0.png){:height 143, :width 532}
+	- ![image.png](../assets/image_1711078981754_0.png){:height 284, :width 532}
