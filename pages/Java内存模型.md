@@ -19,7 +19,7 @@
 		- 程序顺序规则：一个线程中的每个操作，happens-before于该线程中的任意后续操作
 		- 锁规则：对一个锁的解锁，happens-before与随后对这个锁的加锁
 		- Volatile变量规则：对一个volatile修饰的变量的写，happens-before与 任意后续对这个变量的读
-		- 传递性：如果A happens-before B,B happens-before C，那么A happens-before
+		- 传递性：如果A happens-before B,B happens-before C，那么A happens-before C
 -
 - #Synchronized
 	- 可以修饰方法
@@ -36,7 +36,7 @@
 		- 每个对象都都有一个Monitor对象与之关联。
 		- 线程对monitor执行lock和unlock操作，相当于对对象执行上锁和解锁操作。
 		- 将共享变量和对共享变量的操作统一封装起来
-		- ![image.png](../assets/image_1710493518505_0.png){:height 274, :width 153}
+		- ![image.png](../assets/image_1710493518505_0.png){:height 326, :width 260}
 	- 锁优化
 		- jdk 1.6+
 		- 偏向锁

@@ -4,24 +4,43 @@
 	- 垃圾对象
 		- 没有被使用（引用）的对象
 	- 引用
-		- 强引用
+	  id:: 654da127-ec71-4a4e-99d0-f65c335c1350
+		- #强引用
+		  id:: 654da12f-2928-41ce-87a6-01b32aeea701
 			- 不会被回收
+			  id:: 654da18c-6fb0-42b0-8bb0-4885cc4f2caf
 			- `new Object()`
-		- 软引用
+			  id:: 654da15c-fa65-4d31-a2e1-07574dc72ab0
+		- #软引用
+		  id:: 654da138-7a2e-4712-83e4-da8420c0b125
 			- 有用但非必需，内存不足时会被回收
+			  id:: 654da1d9-6cc1-420a-9892-455b55b35f5f
 			- `new SoftReference<object>(obj)`
+			  id:: 654da1af-8f29-47b6-8a9c-939d94658f2c
 			- 常用于缓存，有效防止OOM
-		- 弱引用
+			  id:: 654da2d4-06a3-4ee6-9f73-5c10cca60906
+		- #弱引用
+		  id:: 654da13c-e2f4-43ec-ba13-a1c951489136
 			- 常用与缓存，GC必回收
+			  id:: 654da275-70ac-4301-aec5-fa6ac3d903ee
 			- `new WeakReference<object>(obj)`
+			  id:: 654da235-a497-476e-9273-5603c11d5428
 			- 监控对象是否已经被垃圾回收器标记为即将回收的垃圾
-				- ThreadLocal 中使用了 WeakReference
-		- 虚引用
+			  id:: 654da2f4-4be1-4527-a3ac-97b9f7ea1c2f
+				- #ThreadLocal 中使用了 WeakReference
+				  id:: 654da324-b02e-4a18-85c2-ced3d388b367
+		- #虚引用
+		  id:: 654da142-7fd7-416e-a2b1-51b9a97498d4
 			- 和没有被引用一样，GC必回收
+			  id:: 654da26d-8561-4d8b-8527-469766846fa5
 			- `new PhantomReference<object>(obj, new ReferenceQueue<());`
+			  id:: 654da237-498b-47ba-85bb-92a8df513ae3
 			- 常用于管理直接内存，可以在对象被回收时进行一些清理操作
-		- 无引用
+			  id:: 654da338-4a07-4fb2-a36a-238078994009
+		- #无引用
+		  id:: 654da147-45a8-4928-8435-e006b60e6b71
 			- GC必回收
+			  id:: 654da296-c4cd-4089-836f-49a4e99cb846
 - HOW
 	- 如何清除垃圾
 		- 标记清除 Mark-Sweep

@@ -38,6 +38,10 @@
 			- 不可重入锁：基本没有了
 		- 公平锁、分公平锁：按照多个线程竞争同一锁时需不需要排队，能不能插队，划分为公平锁和非公平锁。
 			- 公平锁：new ReentrantLock（true）多个线程按照申请锁的顺序获取锁
+				- 任务调度器
+				- 消息队列消费者
+				- 资源池管理
+				- 请求处理器
 			- 非公平锁：new ReentrantLock（false）多个线程获取锁的顺序不是按照申请锁的顺序（可以插队、synchronized
 				- 优点：可以实现更高的吞吐量，因为它允许后到达的线程直接争夺锁，而无需等待，从而减少了线程切换的开销。
 				- 缺点：非公平锁可能会导致线程饥饿（某些线程始终无法获得锁），因为总是有一些线程可能会被其他线程连续抢占锁。
@@ -119,11 +123,11 @@
 				- ArrayBlockingQueue 基于数组实现的有界阻塞队列
 				  id:: 6601567b-d4d0-4ecf-abd3-d57d044f3f19
 				- LinkedBlockingQueue 基于链表实现的有界阻塞队列
-				- SynchronousQueue不存储元素的阻塞队列
+				- SynchronousQueue 不存储元素的阻塞队列
 				- PriorityBlockingQueue 支持按优先级排序的无界阻塞队列
-				- DelayQueue优先级队列实现的双向无界阻塞队列
-				- LinkedTransferQueue基于链表实现的无界阻塞队列
-				- LinkedBlockingDeque基于链表实现的双向无界阻塞队列
+				- DelayQueue 优先级队列实现的双向无界阻塞队列
+				- LinkedTransferQueue 基于链表实现的无界阻塞队列
+				- LinkedBlockingDeque 基于链表实现的双向无界阻塞队列
 					- **容量限制**:
 						- `PriorityBlockingQueue` 是无界的，可以动态地增长以容纳更多的元素。
 						- `ArrayBlockingQueue` 是有界的，其容量在创建时被固定，无法存储超过其容量限制的元素。
